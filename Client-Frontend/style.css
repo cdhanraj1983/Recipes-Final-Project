@@ -1,0 +1,214 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #D04059;
+    color: #DF3521;
+    height: 55px;
+    align-items: center;
+}
+nav .nav-links a{
+    text-decoration: none;
+    font-size: x-large;
+    color: #DF3521;
+    padding: 2px 4px;
+}
+nav .nav-links{
+  display: flex;
+  gap: 3rem;
+}
+nav  button{
+    color: #DF3521;
+    font-size: large;
+    padding: 2px;
+    cursor: pointer;
+}
+button:hover{
+    color: #5DA529;
+}
+.logo h1{
+    cursor: pointer;
+    font-size: xx-large;
+}
+.logo h1:hover{
+    color: #5DA529;
+}
+.nav-links a:hover{
+    background: #5DA529;
+    color: white;
+    border-radius: 2px;
+
+}
+
+/* container image */
+.container  img{
+     /* width: 55%;
+    height: 40%; */
+   height: 540px;
+   width: 680px;
+    border-radius: 2px;
+margin: 20px; 
+}
+.container{
+    display: flex;
+}
+.container .dis{
+    display: block;
+    text-align: center;
+    width: 580px;
+    padding: 30px;
+}
+.dis h1{
+    font-size: 35px;
+    color: #D04059;
+}
+.dis h2{
+    font-size: 40px;
+    margin-top: 5px;
+    color:#D04059;
+}
+/* description part */
+
+.description li{
+    color: #D04059;
+    font-size: x-large;
+    padding: 10px 0;
+
+}
+.description h2{
+    color: #D04059;
+    text-align: center;
+    padding: 15px 0;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+/* about page design */
+
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container h2{
+    margin: 30px 0;
+    font-size: xx-large;
+    color: #D04059;
+}
+
+.me{
+    margin: 0 5px 0 40px;
+    
+}
+.h2{
+    margin: 10px 0  5px 0px;
+}
+.dhanraj{
+  margin-bottom: 30px;
+}
+
+.quali{
+    margin-bottom: 30px;
+}
+.rack{
+    margin-bottom: 30px;
+}
+div p{
+    
+    font-size: larger;
+}
+.quali li{
+    font-size: larger;
+}
+
+/* contact page design */
+/* img{
+    background-image: url(image/4.jpg);
+ 
+   background-position: center;
+   background-size: cover;
+}
+.container{
+  
+} */
+ .container5{
+    background-image: url(image/4.jpg);
+ 
+    background-position: center;
+    background-size: cover;
+    height: 0px;
+    height: 585px;
+    /* opacity: 0.8; */
+    
+ }
+ 
+  .contact-form-container {
+    margin-left: 415px;
+   line-height:10px;
+    background-color: rgba(255, 255,255,0.4);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    backdrop-filter: blur(3px);
+    
+  }
+  
+  .contact-form-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .contact-form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #218838;
+  }
+
+  /* recepies */
+.container20{
+    display: flex;
+}
+  
+
+  /* .cart img{
+    height: 200px;
+    width: 220px;
+  } */
